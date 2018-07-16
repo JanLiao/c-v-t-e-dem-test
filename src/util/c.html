@@ -1,0 +1,19 @@
+<html lang="en">
+<body onload="init()">
+<input id="name" type="hidden" value="I am jan"/>
+<p>Help</p>    
+<p><a href="about:blank" onclick="sub()">Exit the Application</a></p>  
+
+<script type="text/javascript">
+   function sub(){
+	   var value = document.getElementById("name").value;
+	   app.exit(value);
+   }
+   
+   function init(){
+	   app.llgin();
+   }
+</script>
+  
+</body>
+</html>
